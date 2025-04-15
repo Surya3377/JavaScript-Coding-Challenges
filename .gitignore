@@ -1,0 +1,175 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the actual contents
+# instead of leaving them as potentially broken archives
+*.7z
+*.apk
+*.arj
+*.bz2
+*.cab
+*.gz
+*.jar
+*.rar
+*.tar.bz2
+*.tar.gz
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+*.dump
+
+# OS generated files #
+######################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE-specific files #
+######################
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+out/
+target/
+build/
+
+# Editor-specific files #
+#########################
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Node.js #
+###########
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+.npmrc
+.yarnrc
+
+# Python #
+##########
+__pycache__/
+*.pyc
+*.pyd
+.python-version
+env/
+venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Ruby #
+########
+.bundle/
+vendor/bundle
+Gemfile.lock
+*.rbc
+.irbrc
+.pryrc
+
+# Java #
+########
+*.war
+*.ear
+
+# Go #
+######
+bin/
+
+# Rust #
+########
+target/
+
+# PHP #
+#######
+vendor/
+composer.lock
+
+# Android #
+###########
+.gradle/
+/build
+captures/
+
+# iOS #
+#######
+Pods/
+build/
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+xcuserdata/
+
+# Terraform #
+#############
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+.plan
+
+# Kubernetes #
+##############
+.kube/
+
+# Docker #
+##########
+*.dockerignore
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# Serverless Framework #
+########################
+.serverless/
+
+# Static Site Generators #
+##########################
+.cache/
+.nuxt/
+.next/
+dist/
+public/
+
+# Temporary files #
+###################
+*~
+\#*\#
+.*.swp
+.DS_Store?
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Other #
+#########
+.history
+.htpasswd

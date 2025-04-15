@@ -304,7 +304,7 @@
 // ];
 // console.log(arrayToObject(array));
 
-// 23) Find the First Non-Repeating Character in a String
+// 23) Find the First Non-Rep   eating Character in a String
 
 // function missingNumber(arr) {
 //   const n = arr.length + 1;
@@ -326,6 +326,18 @@
 //   }
 //   return null;
 // }
+
+// function missingOddNumber(arr) {
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i + 1] - arr[i] !== 2) {
+//       return arr[i] + 2;
+//     }
+//   }
+//   return null;
+// }
+
+// console.log(missingOddNumber([3, 5, 7, 9, 11, 15, 17]));
+// console.log(missingOddNumber([2, 4, 6, 10]));//even nums
 
 // console.log(nonRepeatingChar("lleetcode"));
 
@@ -491,3 +503,32 @@
 // Promise.race([promise1, promise2])
 //   .then((value) => console.log("Resolved:", value))
 //   .catch((reason) => console.log("Rejected:", reason));
+
+// const person = {
+//     name :"jhon",
+//     greet() {
+//         setTimeout(() => {
+//                     console.log(`Hello ${this.name}`)
+//         })
+//   }
+// }
+
+// person.greet()
+
+// function sayHello () {
+//     console.log(`hi my name is ${this.name}`)
+// }
+
+// const user = {name:"jhon"}
+
+// sayHello.call(user)
+// sayHello.apply(user)
+
+// const boundFn = sayHello.bind(user)
+// boundFn()
+
+// call: invokes the function with a given this value.
+
+// apply: same as call, but accepts arguments as an array.
+
+// bind: returns a new function with this bound.
